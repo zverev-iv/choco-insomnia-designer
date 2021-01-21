@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+	<metadata>
+		<id>insomnia-designer</id>
+		<version>2020.5.2</version>
+		<packageSourceUrl>https://github.com/zverev-iv/choco-insomnia-designer</packageSourceUrl>
+		<owners>zverev-iv</owners>
+		<title>insomnia-designer</title>
+		<authors>Kong Inc.</authors>
+		<projectUrl>https://insomnia.rest/download/</projectUrl>
+		<iconUrl>https://cdn.jsdelivr.net/gh/TakataSanshiro/Chocolatey-Packages@master/automatic/insomnia-rest-api-client/icon.png</iconUrl>
+		<copyright>2021 Kong Inc.</copyright>
+		<licenseUrl>https://github.com/Kong/insomnia/blob/develop/LICENSE</licenseUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<projectSourceUrl>https://github.com/Kong/insomnia</projectSourceUrl>
+		<docsUrl>https://support.insomnia.rest/</docsUrl>
+		<bugTrackerUrl>https://github.com/Kong/insomnia/issues</bugTrackerUrl>
+		<tags>insomnia-designer insomnia kong rest api openapi swagger designer specification test source control validation editor</tags>
+		<summary>The Collaborative API Design Tool for designing, testing and managing OpenAPI specifications</summary>
+		<description>Insomnia Designer is a collaborative API Design editor built on-top of the Insomnia REST client (now called Insomnia Core) for designing, managing, debugging, and testing APIs. The primary goal of Insomnia Designer is to empower existing workflows, and provide unified workflows where needed. 
+			Backed by Insomnia Core, powered by source control, and built with love. 💖</description>
+		<releaseNotes>https://github.com/Kong/insomnia/releases</releaseNotes>
+	</metadata>
+	<files>
+		<file src="tools\**" target="tools" />
+	</files>
+</package>
